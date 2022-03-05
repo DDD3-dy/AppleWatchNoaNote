@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F81AFB1727D3D42900C821CA /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81AFB1627D3D42900C821CA /* SettingView.swift */; };
 		F864B44327D37307000F618E /* AppleWatchNoaNote WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F864B44227D37307000F618E /* AppleWatchNoaNote WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F864B44827D37309000F618E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F864B44727D37309000F618E /* Assets.xcassets */; };
 		F864B44E27D37309000F618E /* AppleWatchNoaNote WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F864B44D27D37309000F618E /* AppleWatchNoaNote WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -64,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F81AFB1627D3D42900C821CA /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		F864B43E27D37307000F618E /* AppleWatchNoaNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchNoaNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F864B44227D37307000F618E /* AppleWatchNoaNote WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleWatchNoaNote WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F864B44727D37309000F618E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				F864B46F27D374FF000F618E /* DetailView.swift */,
 				F864B47127D3752B000F618E /* HeaderView.swift */,
 				F864B47327D3754F000F618E /* CreditsView.swift */,
+				F81AFB1627D3D42900C821CA /* SettingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				F864B47227D3752B000F618E /* HeaderView.swift in Sources */,
 				F864B45527D37309000F618E /* AppleWatchNoaNoteApp.swift in Sources */,
 				F864B45727D37309000F618E /* ComplicationController.swift in Sources */,
+				F81AFB1727D3D42900C821CA /* SettingView.swift in Sources */,
 				F864B47027D374FF000F618E /* DetailView.swift in Sources */,
 				F864B46D27D374B0000F618E /* Note.swift in Sources */,
 			);

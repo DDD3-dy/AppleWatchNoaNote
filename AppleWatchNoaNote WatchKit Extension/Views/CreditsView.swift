@@ -8,10 +8,18 @@
 import SwiftUI
 
 struct CreditsView: View {
+    
+    @State private var ramdomNumber: Int = Int.random(in: 1..<4)
+    
+    private var ramdomImage: String {
+        return "NoaNoteCredits\(ramdomNumber)"
+    }
+    
     var body: some View {
         VStack(spacing: 3) {
-            Image("NoaNoteCredits1")
+            Image(ramdomImage)
                 .resizable()
+                .frame(width: 80, height: 80)
                 .scaledToFit()
                 .layoutPriority(1)
             
