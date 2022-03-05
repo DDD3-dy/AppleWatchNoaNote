@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F864B44327D37307000F618E /* AppleWatchNoaNote WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F864B44227D37307000F618E /* AppleWatchNoaNote WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F864B44827D37309000F618E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F864B44727D37309000F618E /* Assets.xcassets */; };
+		F864B44E27D37309000F618E /* AppleWatchNoaNote WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F864B44D27D37309000F618E /* AppleWatchNoaNote WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F864B45327D37309000F618E /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F864B45227D37309000F618E /* NotesView.swift */; };
+		F864B45527D37309000F618E /* AppleWatchNoaNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F864B45427D37309000F618E /* AppleWatchNoaNoteApp.swift */; };
+		F864B45727D37309000F618E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F864B45627D37309000F618E /* ComplicationController.swift */; };
+		F864B45927D3730A000F618E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F864B45827D3730A000F618E /* Assets.xcassets */; };
+		F864B45C27D3730A000F618E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F864B45B27D3730A000F618E /* Preview Assets.xcassets */; };
+		F864B46D27D374B0000F618E /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F864B46C27D374B0000F618E /* Note.swift */; };
+		F864B47027D374FF000F618E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F864B46F27D374FF000F618E /* DetailView.swift */; };
+		F864B47227D3752B000F618E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F864B47127D3752B000F618E /* HeaderView.swift */; };
+		F864B47427D3754F000F618E /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F864B47327D3754F000F618E /* CreditsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F864B44427D37307000F618E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F864B43827D37307000F618E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F864B44127D37307000F618E;
+			remoteInfo = "AppleWatchNoaNote WatchKit App";
+		};
+		F864B44F27D37309000F618E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F864B43827D37307000F618E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F864B44C27D37309000F618E;
+			remoteInfo = "AppleWatchNoaNote WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F864B46327D3730A000F618E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F864B44E27D37309000F618E /* AppleWatchNoaNote WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F864B46727D3730A000F618E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F864B44327D37307000F618E /* AppleWatchNoaNote WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F864B43E27D37307000F618E /* AppleWatchNoaNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchNoaNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F864B44227D37307000F618E /* AppleWatchNoaNote WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleWatchNoaNote WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F864B44727D37309000F618E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F864B44D27D37309000F618E /* AppleWatchNoaNote WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppleWatchNoaNote WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F864B45227D37309000F618E /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		F864B45427D37309000F618E /* AppleWatchNoaNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchNoaNoteApp.swift; sourceTree = "<group>"; };
+		F864B45627D37309000F618E /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		F864B45827D3730A000F618E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F864B45B27D3730A000F618E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F864B45D27D3730A000F618E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F864B46C27D374B0000F618E /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		F864B46F27D374FF000F618E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F864B47127D3752B000F618E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F864B47327D3754F000F618E /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F864B44A27D37309000F618E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F864B43727D37307000F618E = {
+			isa = PBXGroup;
+			children = (
+				F864B44627D37307000F618E /* AppleWatchNoaNote WatchKit App */,
+				F864B45127D37309000F618E /* AppleWatchNoaNote WatchKit Extension */,
+				F864B43F27D37307000F618E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F864B43F27D37307000F618E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F864B43E27D37307000F618E /* AppleWatchNoaNote.app */,
+				F864B44227D37307000F618E /* AppleWatchNoaNote WatchKit App.app */,
+				F864B44D27D37309000F618E /* AppleWatchNoaNote WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F864B44627D37307000F618E /* AppleWatchNoaNote WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F864B44727D37309000F618E /* Assets.xcassets */,
+			);
+			path = "AppleWatchNoaNote WatchKit App";
+			sourceTree = "<group>";
+		};
+		F864B45127D37309000F618E /* AppleWatchNoaNote WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F864B45627D37309000F618E /* ComplicationController.swift */,
+				F864B45427D37309000F618E /* AppleWatchNoaNoteApp.swift */,
+				F864B46B27D373E8000F618E /* Views */,
+				F864B46E27D374B6000F618E /* Model */,
+				F864B45827D3730A000F618E /* Assets.xcassets */,
+				F864B45D27D3730A000F618E /* Info.plist */,
+				F864B45A27D3730A000F618E /* Preview Content */,
+			);
+			path = "AppleWatchNoaNote WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		F864B45A27D3730A000F618E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F864B45B27D3730A000F618E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F864B46B27D373E8000F618E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F864B45227D37309000F618E /* NotesView.swift */,
+				F864B46F27D374FF000F618E /* DetailView.swift */,
+				F864B47127D3752B000F618E /* HeaderView.swift */,
+				F864B47327D3754F000F618E /* CreditsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F864B46E27D374B6000F618E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F864B46C27D374B0000F618E /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F864B43D27D37307000F618E /* AppleWatchNoaNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F864B46827D3730A000F618E /* Build configuration list for PBXNativeTarget "AppleWatchNoaNote" */;
+			buildPhases = (
+				F864B43C27D37307000F618E /* Resources */,
+				F864B46727D3730A000F618E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F864B44527D37307000F618E /* PBXTargetDependency */,
+			);
+			name = AppleWatchNoaNote;
+			productName = AppleWatchNoaNote;
+			productReference = F864B43E27D37307000F618E /* AppleWatchNoaNote.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		F864B44127D37307000F618E /* AppleWatchNoaNote WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F864B46427D3730A000F618E /* Build configuration list for PBXNativeTarget "AppleWatchNoaNote WatchKit App" */;
+			buildPhases = (
+				F864B44027D37307000F618E /* Resources */,
+				F864B46327D3730A000F618E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F864B45027D37309000F618E /* PBXTargetDependency */,
+			);
+			name = "AppleWatchNoaNote WatchKit App";
+			productName = "AppleWatchNoaNote WatchKit App";
+			productReference = F864B44227D37307000F618E /* AppleWatchNoaNote WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F864B44C27D37309000F618E /* AppleWatchNoaNote WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F864B46027D3730A000F618E /* Build configuration list for PBXNativeTarget "AppleWatchNoaNote WatchKit Extension" */;
+			buildPhases = (
+				F864B44927D37309000F618E /* Sources */,
+				F864B44A27D37309000F618E /* Frameworks */,
+				F864B44B27D37309000F618E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppleWatchNoaNote WatchKit Extension";
+			productName = "AppleWatchNoaNote WatchKit Extension";
+			productReference = F864B44D27D37309000F618E /* AppleWatchNoaNote WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F864B43827D37307000F618E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F864B43D27D37307000F618E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F864B44127D37307000F618E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F864B44C27D37309000F618E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F864B43B27D37307000F618E /* Build configuration list for PBXProject "AppleWatchNoaNote" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F864B43727D37307000F618E;
+			productRefGroup = F864B43F27D37307000F618E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F864B43D27D37307000F618E /* AppleWatchNoaNote */,
+				F864B44127D37307000F618E /* AppleWatchNoaNote WatchKit App */,
+				F864B44C27D37309000F618E /* AppleWatchNoaNote WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F864B43C27D37307000F618E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F864B44027D37307000F618E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F864B44827D37309000F618E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F864B44B27D37309000F618E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F864B45C27D3730A000F618E /* Preview Assets.xcassets in Resources */,
+				F864B45927D3730A000F618E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F864B44927D37309000F618E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F864B45327D37309000F618E /* NotesView.swift in Sources */,
+				F864B47427D3754F000F618E /* CreditsView.swift in Sources */,
+				F864B47227D3752B000F618E /* HeaderView.swift in Sources */,
+				F864B45527D37309000F618E /* AppleWatchNoaNoteApp.swift in Sources */,
+				F864B45727D37309000F618E /* ComplicationController.swift in Sources */,
+				F864B47027D374FF000F618E /* DetailView.swift in Sources */,
+				F864B46D27D374B0000F618E /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F864B44527D37307000F618E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F864B44127D37307000F618E /* AppleWatchNoaNote WatchKit App */;
+			targetProxy = F864B44427D37307000F618E /* PBXContainerItemProxy */;
+		};
+		F864B45027D37309000F618E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F864B44C27D37309000F618E /* AppleWatchNoaNote WatchKit Extension */;
+			targetProxy = F864B44F27D37309000F618E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F864B45E27D3730A000F618E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F864B45F27D3730A000F618E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F864B46127D3730A000F618E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleWatchNoaNote WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = KRUHW4V9N9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AppleWatchNoaNote WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AppleWatchNoaNote WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dylan.AppleWatchNoaNote.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		F864B46227D3730A000F618E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleWatchNoaNote WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = KRUHW4V9N9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AppleWatchNoaNote WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AppleWatchNoaNote WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dylan.AppleWatchNoaNote.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		F864B46527D3730A000F618E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KRUHW4V9N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = AppleWatchNoaNote_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "AppleWatchNoaNote WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dylan.AppleWatchNoaNote.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		F864B46627D3730A000F618E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KRUHW4V9N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = AppleWatchNoaNote_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "AppleWatchNoaNote WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dylan.AppleWatchNoaNote.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		F864B46927D3730A000F618E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KRUHW4V9N9;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dylan.AppleWatchNoaNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F864B46A27D3730A000F618E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KRUHW4V9N9;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dylan.AppleWatchNoaNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F864B43B27D37307000F618E /* Build configuration list for PBXProject "AppleWatchNoaNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F864B45E27D3730A000F618E /* Debug */,
+				F864B45F27D3730A000F618E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F864B46027D3730A000F618E /* Build configuration list for PBXNativeTarget "AppleWatchNoaNote WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F864B46127D3730A000F618E /* Debug */,
+				F864B46227D3730A000F618E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F864B46427D3730A000F618E /* Build configuration list for PBXNativeTarget "AppleWatchNoaNote WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F864B46527D3730A000F618E /* Debug */,
+				F864B46627D3730A000F618E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F864B46827D3730A000F618E /* Build configuration list for PBXNativeTarget "AppleWatchNoaNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F864B46927D3730A000F618E /* Debug */,
+				F864B46A27D3730A000F618E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F864B43827D37307000F618E /* Project object */;
+}
